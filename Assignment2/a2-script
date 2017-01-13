@@ -1,0 +1,55 @@
+Script started on Fri Oct  7 12:23:38 2016
+[?1034hbash-3.2$ sqlite3
+-- Loading resources from /Users/chaitali/.sqliterc
+
+SQLite version 3.8.10.2 2015-05-20 18:17:19
+Enter ".help" for usage hints.
+Connected to a [1mtransient in-memory database[0m.
+Use ".open FILENAME" to reopen on a persistent database.
+sqlite> .exitread a2-queries.sql[16G[3P1-data.sql[16G[2@2-tables.sql
+
+sqlite> .read a2-tables.sqlql[K[K[K[K[K[K[K[K[K[Kdata.sql 
+
+sqlite> .read a2-queries.sql 
+
+Question 1 -cpatel1
+niacin
+ibuprofen
+
+Question 2 -cpatel1
+headache
+
+Question 3 -cpatel1
+sore muscles
+
+Question 4 -cpatel1
+
+Question 5 -cpatel1
+30000|niacin|505.0|1000
+
+Question 6 -cpatel1
+ibuprofen|16.6666666666667|0.0
+niacin|66.6666666666667|0.0
+
+Question 7 -cpatel1
+
+Question 8 -cpatel1
+10000
+
+Question 9 -cpatel1
+10000|drug2
+10000|niacin
+23769|drug2
+23769|niacin
+30000|drug2
+30000|ibuprofen
+30000|niacin
+
+Question 10 -cpatel1
+ibuprofen
+
+sqlite> .quit
+bash-3.2$ exit
+exit
+
+Script done on Fri Oct  7 12:24:20 2016
